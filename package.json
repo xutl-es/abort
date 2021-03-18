@@ -1,0 +1,33 @@
+{
+	"name": "@xutl/abort",
+	"version": "1.0.0",
+	"description": "Abort Control",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "xutltest",
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xutl-es/abort.git"
+	},
+	"keywords": [
+		"XtremelyUsefulToolLibraries",
+		"Abort",
+		"Async"
+	],
+	"author": "XUTL <dev@xutl.es>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/xutl-es/abort/issues"
+	},
+	"homepage": "https://xutl.es",
+	"dependencies": {
+		"@xutl/events": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.35",
+		"@xutl/test": "^1.0.2"
+	}
+}
